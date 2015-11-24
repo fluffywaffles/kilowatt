@@ -1,0 +1,46 @@
+@import 'includes/fonts'
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: #fafafa;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  color: #333;
+  display: inline-table;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+h3 {
+  color: #bbb;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.main {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.hello-block {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 2px;
+}
+
+img.bam {
+  position: absolute;
+  height: 200px;
+  left: 80%;
+  top: -80px;
+}
