@@ -1,12 +1,12 @@
 var compileTasks = [
     'jade',
-    //'sass',
-    'stylus'
+    'sass',
+    'stylus',
 ]
 
 var serveTasks = [
   'fonts',
-  'images'
+  'images',
 ].concat(compileTasks)
 
 var buildTasks = [
@@ -16,5 +16,5 @@ var buildTasks = [
 module.exports = {
   "compileTasks": compileTasks,
   "serveTasks"  : serveTasks,
-  "buildTasks"  : buildTasks
+  "buildTasks"  : buildTasks,
 }
